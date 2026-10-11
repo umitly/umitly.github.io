@@ -30,3 +30,10 @@ nav { margin: 16px 0 24px; display: flex; gap: 16px; flex-wrap: wrap; }
   margin: 16px 0;
 }
 hr { border: 0; border-top: 1px solid #2a2d33; margin: 48px 0; }
+.table { overflow-x: auto; margin: 12px 0; }
+table { border-collapse: collapse; width: 100%; font-size: 0.85rem; }
+th, td { text-align: left; vertical-align: top; padding: 6px 8px; border-bottom: 1px solid #2a2d33; }
+th { color: var(--accent); font-weight: 600; }
+td { word-break: break-word; }
+pre { white-space: pre-wrap; word-break: break-word; background: var(--surface); padding: 12px; border-radius: 8px; font-size: 0.8rem; color: var(--muted); }
+footer { margin-top: 48px; display: flex; gap: 16px; flex-wrap: wrap; font-size: 0.9rem; }
