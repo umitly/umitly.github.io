@@ -29,7 +29,8 @@ nav { margin: 16px 0 24px; display: flex; gap: 16px; flex-wrap: wrap; }
   padding: 16px 20px;
   margin: 16px 0;
 }
-.logo { display: block; width: 180px; max-width: 60%; height: auto; margin: 0 0 24px; }
+.logo { display: block; width: 150px; max-width: 50%; height: auto; flex-basis: 100%; }
+.app-icon { display: block; width: 112px; height: 112px; border-radius: 25px; image-rendering: pixelated; margin: 0 0 20px; box-shadow: 0 0 0 1px var(--rule); }
 hr { border: 0; border-top: 1px solid var(--rule); margin: 48px 0; }
 .table { overflow-x: auto; margin: 12px 0; }
 table { border-collapse: collapse; width: 100%; font-size: 0.85rem; }
